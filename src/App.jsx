@@ -2,6 +2,8 @@ import { useRoutes } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
 import { HistoryRouter as Router } from 'redux-first-history/rr6';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import store, { history, persistor } from './config/store';
 import router from './config/router';
