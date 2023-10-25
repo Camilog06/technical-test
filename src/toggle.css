@@ -1,0 +1,83 @@
+.tus-apuestas {
+    position: fixed;
+    top: 132px;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: #E0E0E0;
+    transition: right 0.3s ease;
+    overflow-y: auto;
+}
+
+.tus-apuestas.open {
+    right: 0 !important; 
+}
+ 
+.tus-apuestas .content {
+    padding: 16px;
+}
+ 
+.tus-apuestas .li-match {
+  list-style-type: none;
+  background-color: #BFF9A2;
+  padding: 24px;
+  margin: auto;
+  border: solid;
+  margin-bottom: 20px;
+}
+
+.tus-apuestas button {
+    position: absolute;
+    right: 30px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    color: white;
+    padding: 3px;
+}
+
+.tus-apuestas button:hover {
+  background-color: white;
+}
+
+@media (max-width: 380px) {
+  .tus-apuestas {
+    top: 102px;
+    position: fixed;
+    right: -200px;
+    width: 200px;
+    height: 100%;
+    background-color: #E0E0E0;
+    transition: right 0.3s ease;
+    overflow-y: auto;
+}
+.tus-apuestas.open {
+  right: 0 !important; 
+}
+.tus-apuestas .li-match {
+  list-style-type: none;
+  background-color: #BFF9A2;
+  padding: 14px;
+  width: 130px;
+  border: solid;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.tus-apuestas .content {
+  padding: 10px;
+}
+.tus-apuestas button {
+  position: absolute;
+  right: 140px;
+  cursor: pointer;
+  width: 20px;
+  height: 30px;
+  color: white;
+  padding: 3px;
+}
+}
+  
+  
+
+  
+  
