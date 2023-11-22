@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import '@/match.css';
 
-const Match = ({ addMatchToCart }) => {
-  const matches = [
+const LIST_MATCHS = [
     {
       id: 1,
       team1: 'COLOMBIA',
@@ -35,9 +34,10 @@ const Match = ({ addMatchToCart }) => {
     },
   ];
 
+const Match = ({ addMatchToCart }) => {
   return (
     <div className="match">
-      {matches.map((match) => (
+      {LIST_MATCHS.map((match) => (
         <div key={match.id} className="one">
           <div className="partidos">
             <p>{`${match.team1} VS ${match.team2}`}</p>
